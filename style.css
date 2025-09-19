@@ -1,0 +1,149 @@
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.cart-container {
+    background-color: #fff;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.delivery-info {
+    margin-bottom: 20px;
+}
+
+.delivery-card {
+    background-color: #2e8b57;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delivery-text h2 {
+    margin: 0;
+    font-size: 1.1em;
+}
+
+.delivery-text p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+.distance {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.order-list h2 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.item-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.item-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.item-details {
+    flex-grow: 1;
+}
+
+.item-details h3 {
+    margin: 0 0 5px;
+    font-size: 1em;
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.quantity-control button {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.quantity-control span {
+    margin: 0 10px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #2e8b57;
+}
+
+.place-order-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 10px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.bottom-nav a {
+    text-align: center;
+    color: #888;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.bottom-nav a.active {
+    color: #2e8b57;
+}
+
+.bottom-nav i {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}

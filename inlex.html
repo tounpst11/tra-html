@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="cart-container">
+        <header>
+            <h1>My Cart</h1>
+        </header>
+
+        <section class="delivery-info">
+            <div class="delivery-card">
+                <div class="delivery-text">
+                    <h2>Delivery to Home</h2>
+                    <p>Utama Street No 14, R Mitra</p>
+                    <p class="distance">2.4 km</p>
+                </div>
+                <i class="fas fa-chevron-right"></i>
+            </div>
+        </section>
+
+        <section class="order-list">
+            <h2>Your Order (3)</h2>
+            <div class="item-card">
+                <img src="Squid Sweet and Sour Salad.jpeg" alt="Squid Sweet and Sour Salad">
+                <div class="item-details">
+                    <h3>Squid Sweet and Sour Salad</h3>
+                    <div class="quantity-control">
+                        <button>-</button>
+                        <span>1</span>
+                        <button>+</button>
+                    </div>
+                </div>
+                <span class="price">$10.99</span>
+            </div>
+
+            <div class="item-card">
+                <img src="Japan Hainanese Sashimi.jpeg" alt="Japan Hainanese Sashimi">
+                <div class="item-details">
+                    <h3>Japan Hainanese Sashimi</h3>
+                    <div class="quantity-control">
+                        <button>-</button>
+                        <span>1</span>
+                        <button>+</button>
+                    </div>
+                </div>
+                <span class="price">$39.99</span>
+            </div>
+
+            <div class="item-card">
+                <img src="Black Pepper Beef Lumpia.jpeg" alt="Black Pepper Beef Lumpia">
+                <div class="item-details">
+                    <h3>Black Pepper Beef Lumpia</h3>
+                    <div class="quantity-control">
+                        <button>-</button>
+                        <span>1</span>
+                        <button>+</button>
+                    </div>
+                </div>
+                <span class="price">$27.12</span>
+            </div>
+        </section>
+        
+        <button class="place-order-btn">Place Order</button>
+
+        <nav class="bottom-nav">
+            <a href="#" class="active"><i class="fas fa-home"></i><br>Home</a>
+            <a href="#"><i class="fas fa-book"></i><br>Menu</a>
+            <a href="#"><i class="fas fa-shopping-cart"></i><br>Cart (3)</a>
+            <a href="#"><i class="fas fa-user"></i><br>Profile</a>
+        </nav>
+    </div>
+</body>
+</html>
